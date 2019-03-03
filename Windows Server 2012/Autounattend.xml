@@ -120,6 +120,13 @@ Notes: Enter your comments here...
 <Enabled>true</Enabled>
 <Username>vagrant</Username>
 </AutoLogon>
+<LogonCommands>
+   <AsynchronousCommand wcm:action="add">
+      <CommandLine>powershell -NoProfile -File a:\Setup_winrm.ps1</CommandLine>
+      <Description>Description_of_command1</Description>
+      <Order>1</Order>
+   </AsynchronousCommand>
+   </LogonCommands>
 <OOBE>
 <HideEULAPage>true</HideEULAPage>
 <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
