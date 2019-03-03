@@ -1,0 +1,75 @@
+{
+  "builders": [
+    {
+      "type": "vmware-iso",
+      "communicator": "winrm",
+      "winrm_username": "vagrant",
+      "winrm_password": "vagrant",
+      "winrm_insecure": true,
+      "winrm_port":"5985",
+      "winrm_use_ssl": false,
+      
+      
+      "iso_url": "en_windows_server_2012_r2_vl_x64_dvd_3319595.iso",
+      "iso_checksum_type": "none",
+      "headless": false,
+      "boot_wait": "5m",
+      "ssh_username": "vagrant",
+      "ssh_password": "vagrant",
+      "ssh_wait_timeout": "6h",
+      "shutdown_command": "shutdown /s /t 10 /f /d p:4:1 /c \"Packer Shutdown\"",
+      "guest_os_type": "windows8srv-64",
+      
+      "format": "vmx",
+
+      "vnc_port_min": 5900,
+      "vnc_port_max": 6000,
+      
+      
+      "floppy_files": [
+        "Autounattend.xml",
+        "chocolatey.ps1",
+        "Setup_winrm.ps1",
+        "firefox.ps1"
+      ],
+      "vmx_data": {
+        "RemoteDisplay.vnc.enabled": "false",
+        "RemoteDisplay.vnc.port": "5900",
+        "memsize": "4096",
+        "disk_size": "40000",
+        "numvcpus": 2,
+        "ethernet0.networkName": "VM Network",
+        "network_adapter_type": "e1000",
+        "scsi0.virtualDev": "lsisas1068"
+      },
+      
+      "remote_host": "192.168.1.33",
+      "remote_username": "root",
+      "remote_password": "!admin35!",
+      "remote_datastore": "datastore1",
+      "keep_registered":true
+      
+    }
+
+  ],
+  
+  
+
+  "provisioners": [
+  {
+    "type": "powershell",
+    "inline": [
+      "Write-host \"Hello from Powershell\""
+    ]
+
+   },
+   {
+    "type": "powershell",
+    "scripts": [
+      "chocolatey.ps1",
+      "firefox.ps1"
+    ]
+
+   }
+                    ]
+}

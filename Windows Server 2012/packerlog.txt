@@ -1,0 +1,432 @@
+2019/03/03 21:25:58 [INFO] Packer version: 1.3.4
+2019/03/03 21:25:58 Packer Target OS/Arch: windows amd64
+2019/03/03 21:25:58 Built with Go Version: go1.11.4
+2019/03/03 21:25:58 Detected home directory from env var: C:\Users\Yakza971\AppData\Roaming
+2019/03/03 21:25:58 Using internal plugin for hcloud
+2019/03/03 21:25:58 Using internal plugin for hyperv-vmcx
+2019/03/03 21:25:58 Using internal plugin for amazon-ebsvolume
+2019/03/03 21:25:58 Using internal plugin for ncloud
+2019/03/03 21:25:58 Using internal plugin for oracle-oci
+2019/03/03 21:25:58 Using internal plugin for amazon-chroot
+2019/03/03 21:25:58 Using internal plugin for file
+2019/03/03 21:25:58 Using internal plugin for oneandone
+2019/03/03 21:25:58 Using internal plugin for oracle-classic
+2019/03/03 21:25:58 Using internal plugin for vmware-vmx
+2019/03/03 21:25:58 Using internal plugin for digitalocean
+2019/03/03 21:25:58 Using internal plugin for hyperv-iso
+2019/03/03 21:25:58 Using internal plugin for null
+2019/03/03 21:25:58 Using internal plugin for parallels-iso
+2019/03/03 21:25:58 Using internal plugin for triton
+2019/03/03 21:25:58 Using internal plugin for vmware-iso
+2019/03/03 21:25:58 Using internal plugin for amazon-instance
+2019/03/03 21:25:58 Using internal plugin for lxc
+2019/03/03 21:25:58 Using internal plugin for parallels-pvm
+2019/03/03 21:25:58 Using internal plugin for profitbricks
+2019/03/03 21:25:58 Using internal plugin for cloudstack
+2019/03/03 21:25:58 Using internal plugin for openstack
+2019/03/03 21:25:58 Using internal plugin for amazon-ebssurrogate
+2019/03/03 21:25:58 Using internal plugin for scaleway
+2019/03/03 21:25:58 Using internal plugin for virtualbox-iso
+2019/03/03 21:25:58 Using internal plugin for alicloud-ecs
+2019/03/03 21:25:58 Using internal plugin for azure-arm
+2019/03/03 21:25:58 Using internal plugin for docker
+2019/03/03 21:25:58 Using internal plugin for googlecompute
+2019/03/03 21:25:58 Using internal plugin for lxd
+2019/03/03 21:25:58 Using internal plugin for qemu
+2019/03/03 21:25:58 Using internal plugin for tencentcloud-cvm
+2019/03/03 21:25:58 Using internal plugin for virtualbox-ovf
+2019/03/03 21:25:58 Using internal plugin for amazon-ebs
+2019/03/03 21:25:58 Using internal plugin for converge
+2019/03/03 21:25:58 Using internal plugin for puppet-masterless
+2019/03/03 21:25:58 Using internal plugin for chef-solo
+2019/03/03 21:25:58 Using internal plugin for shell
+2019/03/03 21:25:58 Using internal plugin for windows-shell
+2019/03/03 21:25:58 Using internal plugin for breakpoint
+2019/03/03 21:25:58 Using internal plugin for chef-client
+2019/03/03 21:25:58 Using internal plugin for powershell
+2019/03/03 21:25:58 Using internal plugin for windows-restart
+2019/03/03 21:25:58 Using internal plugin for shell-local
+2019/03/03 21:25:58 Using internal plugin for ansible
+2019/03/03 21:25:58 Using internal plugin for ansible-local
+2019/03/03 21:25:58 Using internal plugin for file
+2019/03/03 21:25:58 Using internal plugin for puppet-server
+2019/03/03 21:25:58 Using internal plugin for salt-masterless
+2019/03/03 21:25:58 Using internal plugin for alicloud-import
+2019/03/03 21:25:58 Using internal plugin for compress
+2019/03/03 21:25:58 Using internal plugin for docker-import
+2019/03/03 21:25:58 Using internal plugin for googlecompute-import
+2019/03/03 21:25:58 Using internal plugin for shell-local
+2019/03/03 21:25:58 Using internal plugin for vagrant
+2019/03/03 21:25:58 Using internal plugin for docker-save
+2019/03/03 21:25:58 Using internal plugin for googlecompute-export
+2019/03/03 21:25:58 Using internal plugin for vagrant-cloud
+2019/03/03 21:25:58 Using internal plugin for vsphere
+2019/03/03 21:25:58 Using internal plugin for vsphere-template
+2019/03/03 21:25:58 Using internal plugin for amazon-import
+2019/03/03 21:25:58 Using internal plugin for artifice
+2019/03/03 21:25:58 Using internal plugin for checksum
+2019/03/03 21:25:58 Using internal plugin for docker-push
+2019/03/03 21:25:58 Using internal plugin for docker-tag
+2019/03/03 21:25:58 Using internal plugin for manifest
+2019/03/03 21:25:58 Detected home directory from env var: C:\Users\Yakza971\AppData\Roaming
+2019/03/03 21:25:58 Attempting to open config file: C:\Users\Yakza971\AppData\Roaming\packer.config
+2019/03/03 21:25:58 [WARN] Config file doesn't exist: C:\Users\Yakza971\AppData\Roaming\packer.config
+2019/03/03 21:25:58 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[parallels-iso:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-parallels-iso parallels-pvm:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-parallels-pvm amazon-ebssurrogate:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebssurrogate lxd:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-lxd tencentcloud-cvm:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-tencentcloud-cvm amazon-ebsvolume:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebsvolume lxc:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-lxc profitbricks:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-profitbricks vmware-iso:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-vmware-iso hcloud:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hcloud triton:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-triton googlecompute:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-googlecompute qemu:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-qemu virtualbox-ovf:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-virtualbox-ovf oracle-classic:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oracle-classic hyperv-iso:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hyperv-iso scaleway:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-scaleway file:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-file ncloud:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-ncloud oneandone:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oneandone vmware-vmx:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-vmware-vmx null:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-null openstack:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-openstack alicloud-ecs:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-alicloud-ecs azure-arm:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-azure-arm hyperv-vmcx:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hyperv-vmcx amazon-ebs:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebs amazon-chroot:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-chroot digitalocean:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-digitalocean amazon-instance:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-instance cloudstack:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-cloudstack virtualbox-iso:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-virtualbox-iso docker:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-docker oracle-oci:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oracle-oci] PostProcessors:map[docker-import:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-import vagrant:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vagrant vsphere-template:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vsphere-template manifest:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-manifest amazon-import:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-amazon-import artifice:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-artifice docker-push:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-push alicloud-import:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-alicloud-import googlecompute-import:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-googlecompute-import shell-local:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-shell-local vsphere:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vsphere docker-tag:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-tag compress:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-compress docker-save:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-save googlecompute-export:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-googlecompute-export vagrant-cloud:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vagrant-cloud checksum:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-checksum] Provisioners:map[puppet-masterless:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-puppet-masterless salt-masterless:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-salt-masterless puppet-server:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-puppet-server converge:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-converge chef-solo:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-chef-solo shell:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-shell windows-shell:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-shell chef-client:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-chef-client file:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-file powershell:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-powershell windows-restart:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-restart ansible:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-ansible breakpoint:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-breakpoint shell-local:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-shell-local ansible-local:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-ansible-local]}
+2019/03/03 21:25:58 Detected home directory from env var: C:\Users\Yakza971\AppData\Roaming
+2019/03/03 21:25:58 Setting cache directory: H:\Virtual Machines\Packer\packer_cache
+2019/03/03 21:25:58 Detected home directory from env var: C:\Users\Yakza971\AppData\Roaming
+2019/03/03 21:25:58 Loading builder: vmware-iso
+2019/03/03 21:25:58 Plugin could not be found. Checking same directory as executable.
+2019/03/03 21:25:58 Current exe path: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2019/03/03 21:25:58 Creating plugin client for path: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2019/03/03 21:25:58 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "plugin", "packer-builder-vmware-iso"}
+2019/03/03 21:25:58 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 [INFO] Packer version: 1.3.4
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Packer Target OS/Arch: windows amd64
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Built with Go Version: go1.11.4
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Detected home directory from env var: C:\Users\Yakza971\AppData\Roaming
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Attempting to open config file: C:\Users\Yakza971\AppData\Roaming\packer.config
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 [WARN] Config file doesn't exist: C:\Users\Yakza971\AppData\Roaming\packer.config
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[] PostProcessors:map[] Provisioners:map[]}
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Detected home directory from env var: C:\Users\Yakza971\AppData\Roaming
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Detected home directory from env var: C:\Users\Yakza971\AppData\Roaming
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Setting cache directory: H:\Virtual Machines\Packer\packer_cache
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 args: []string{"packer-builder-vmware-iso"}
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Plugin minimum port: 10000
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Plugin maximum port: 25000
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Plugin address: tcp 127.0.0.1:10000
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Waiting for connection...
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Serving a plugin connection...
+2019/03/03 21:25:58 Loading provisioner: powershell
+2019/03/03 21:25:58 Plugin could not be found. Checking same directory as executable.
+2019/03/03 21:25:58 Current exe path: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2019/03/03 21:25:58 Creating plugin client for path: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2019/03/03 21:25:58 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "plugin", "packer-provisioner-powershell"}
+2019/03/03 21:25:58 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 [INFO] Packer version: 1.3.4
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Packer Target OS/Arch: windows amd64
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Built with Go Version: go1.11.4
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Detected home directory from env var: C:\Users\Yakza971\AppData\Roaming
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Attempting to open config file: C:\Users\Yakza971\AppData\Roaming\packer.config
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 [WARN] Config file doesn't exist: C:\Users\Yakza971\AppData\Roaming\packer.config
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[] PostProcessors:map[] Provisioners:map[]}
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Detected home directory from env var: C:\Users\Yakza971\AppData\Roaming
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Detected home directory from env var: C:\Users\Yakza971\AppData\Roaming
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Setting cache directory: H:\Virtual Machines\Packer\packer_cache
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 args: []string{"packer-provisioner-powershell"}
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Plugin minimum port: 10000
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Plugin maximum port: 25000
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Plugin address: tcp 127.0.0.1:10000
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Waiting for connection...
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Serving a plugin connection...
+2019/03/03 21:25:58 Loading provisioner: powershell
+2019/03/03 21:25:58 Plugin could not be found. Checking same directory as executable.
+2019/03/03 21:25:58 Current exe path: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2019/03/03 21:25:58 Creating plugin client for path: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2019/03/03 21:25:58 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "plugin", "packer-provisioner-powershell"}
+2019/03/03 21:25:58 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 [INFO] Packer version: 1.3.4
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Packer Target OS/Arch: windows amd64
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Built with Go Version: go1.11.4
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Detected home directory from env var: C:\Users\Yakza971\AppData\Roaming
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Attempting to open config file: C:\Users\Yakza971\AppData\Roaming\packer.config
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 [WARN] Config file doesn't exist: C:\Users\Yakza971\AppData\Roaming\packer.config
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[] PostProcessors:map[] Provisioners:map[]}
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Detected home directory from env var: C:\Users\Yakza971\AppData\Roaming
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Detected home directory from env var: C:\Users\Yakza971\AppData\Roaming
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Setting cache directory: H:\Virtual Machines\Packer\packer_cache
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 args: []string{"packer-provisioner-powershell"}
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Plugin minimum port: 10000
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Plugin maximum port: 25000
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Plugin address: tcp 127.0.0.1:10000
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Waiting for connection...
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Serving a plugin connection...
+2019/03/03 21:25:58 ui: vmware-iso output will be in this color.
+2019/03/03 21:25:58 ui: 
+2019/03/03 21:25:58 Build debug mode: false
+2019/03/03 21:25:58 Force build: false
+2019/03/03 21:25:58 On error: 
+2019/03/03 21:25:58 Preparing build: vmware-iso
+2019/03/03 21:25:58 ui: Warnings for build 'vmware-iso':
+2019/03/03 21:25:58 ui: * A checksum type of 'none' was specified. Since ISO files are so big,
+a checksum is highly recommended.
+2019/03/03 21:25:58 ui: * Your vmx data contains the following variable(s), which Packer normally sets when it generates its own default vmx template. This may cause your build to fail or behave unpredictably: numvcpus, memsize, scsi0.virtualDev
+2019/03/03 21:25:58 ui: 
+2019/03/03 21:25:58 Waiting on builds to complete...
+2019/03/03 21:25:58 Starting build run: vmware-iso
+2019/03/03 21:25:58 Running builder: vmware-iso
+2019/03/03 21:25:58 [INFO] (telemetry) Starting builder vmware-iso
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Searching for file 'C:/Program Files (x86)/VMware/VMware Workstation/vmware.exe'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Found file 'C:/Program Files (x86)/VMware/VMware Workstation/vmware.exe'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Searching for file 'C:/Program Files (x86)/VMware/VMware Workstation/vmrun.exe'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Found file 'C:/Program Files (x86)/VMware/VMware Workstation/vmrun.exe'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Searching for file 'C:/Program Files (x86)/VMware/VMware Workstation/vmware-vdiskmanager.exe'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Found file 'C:/Program Files (x86)/VMware/VMware Workstation/vmware-vdiskmanager.exe'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 VMware app path: C:/Program Files (x86)/VMware/VMware Workstation/vmware.exe
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 vmrun path: C:/Program Files (x86)/VMware/VMware Workstation/vmrun.exe
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 vdisk-manager path: C:/Program Files (x86)/VMware/VMware Workstation/vmware-vdiskmanager.exe
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Detected VMware WS version: 12
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Testing vmware driver *common.Workstation10Driver. Success: true
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Searching for file 'C:/Program Files (x86)/VMware/VMware Workstation/windows.iso'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Found file 'C:/Program Files (x86)/VMware/VMware Workstation/windows.iso'
+2019/03/03 21:25:58 ui: ==> vmware-iso: Retrieving ISO
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Acquiring lock to download: file:///H:/Virtual%20Machines/Packer/en_windows_server_2012_r2_vl_x64_dvd_3319595.iso
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Parsed URL: &url.URL{Scheme:"file", Opaque:"", User:(*url.Userinfo)(nil), Host:"", Path:"/H:/Virtual Machines/Packer/en_windows_server_2012_r2_vl_x64_dvd_3319595.iso", RawPath:"", ForceQuery:false, RawQuery:"", Fragment:""}
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 [DEBUG] Using local file: H:/Virtual Machines/Packer/en_windows_server_2012_r2_vl_x64_dvd_3319595.iso
+2019/03/03 21:25:58 ui:     vmware-iso: Using file in-place: file:///H:/Virtual%20Machines/Packer/en_windows_server_2012_r2_vl_x64_dvd_3319595.iso
+2019/03/03 21:25:58 ui: ==> vmware-iso: Creating floppy disk...
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Floppy path: C:\Users\Yakza971\AppData\Local\Temp\packer747681371
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Initializing block device backed by temporary file
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Formatting the block device with a FAT filesystem...
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Initializing FAT filesystem on block device
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Reading the root directory from the filesystem
+2019/03/03 21:25:58 ui:     vmware-iso: Copying files flatly from floppy_files
+2019/03/03 21:25:58 ui:     vmware-iso: Copying file: Autounattend.xml
+2019/03/03 21:25:58 ui:     vmware-iso: Copying file: chocolatey.ps1
+2019/03/03 21:25:58 ui:     vmware-iso: Copying file: Setup_winrm.ps1
+2019/03/03 21:25:58 ui:     vmware-iso: Copying file: firefox.ps1
+2019/03/03 21:25:58 ui:     vmware-iso: Done copying files from floppy_files
+2019/03/03 21:25:58 ui:     vmware-iso: Collecting paths from floppy_dirs
+2019/03/03 21:25:58 ui:     vmware-iso: Resulting paths from floppy_dirs : []
+2019/03/03 21:25:58 ui:     vmware-iso: Done copying paths from floppy_dirs
+2019/03/03 21:25:58 ui: ==> vmware-iso: Creating required virtual machine disks
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 [INFO] Creating disk with Path: output-vmware-iso\disk.vmdk and Size: 40000M
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Executing: C:/Program Files (x86)/VMware/VMware Workstation/vmware-vdiskmanager.exe -c -s 40000M -a lsilogic -t 1 output-vmware-iso\disk.vmdk
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 stdout: Creating disk 'output-vmware-iso\disk.vmdk'
+2019/03/03 21:25:58 packer.exe: Virtual disk creation successful.
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 stderr:
+2019/03/03 21:25:58 ui: ==> vmware-iso: Building and writing VMX file
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Writing VMX to: output-vmware-iso\packer-vmware-iso.vmx
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Configuring VMX...
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Setting VMX: 'RemoteDisplay.vnc.enabled' = 'false'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Setting VMX: 'RemoteDisplay.vnc.port' = '5900'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Setting VMX: 'memsize' = '4096'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Setting VMX: 'disk_size' = '40000'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Setting VMX: 'numvcpus' = '2'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Setting VMX: 'ethernet0.networkName' = 'VM Network'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Setting VMX: 'network_adapter_type' = 'e1000'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Setting VMX: 'scsi0.virtualDev' = 'lsisas1068'
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Floppy path present, setting in VMX
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Writing VMX to: output-vmware-iso\packer-vmware-iso.vmx
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Suppressing messages in VMX
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Looking for available port between 5900 and 6000
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Trying port: 5974
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Found available VNC port: 5974
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Writing VMX to: output-vmware-iso\packer-vmware-iso.vmx
+2019/03/03 21:25:58 ui: ==> vmware-iso: Starting virtual machine...
+2019/03/03 21:25:58 packer.exe: 2019/03/03 21:25:58 Executing: C:/Program Files (x86)/VMware/VMware Workstation/vmrun.exe -T ws start output-vmware-iso\packer-vmware-iso.vmx gui
+2019/03/03 21:26:00 packer.exe: 2019/03/03 21:26:00 stdout:
+2019/03/03 21:26:00 packer.exe: 2019/03/03 21:26:00 stderr:
+2019/03/03 21:26:00 ui: ==> vmware-iso: Waiting 5m0s for boot...
+2019/03/03 21:31:00 ui: ==> vmware-iso: Connecting to VM via VNC (127.0.0.1:5974)
+2019/03/03 21:31:00 packer.exe: 2019/03/03 21:31:00 Connected to VNC desktop: packer-vmware-iso
+2019/03/03 21:31:00 packer.exe: 2019/03/03 21:31:00 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:00 packer.exe: 2019/03/03 21:31:00 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:00 packer.exe: 2019/03/03 21:31:00 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:31:00 packer.exe: 2019/03/03 21:31:00 HostIP discovered device matching nat: vmnet8
+2019/03/03 21:31:00 packer.exe: 2019/03/03 21:31:00 Searching for file 'C:/ProgramData/VMware/vmnetdhcp.conf'
+2019/03/03 21:31:00 packer.exe: 2019/03/03 21:31:00 Found file 'C:/ProgramData/VMware/vmnetdhcp.conf'
+2019/03/03 21:31:01 packer.exe: 2019/03/03 21:31:01 Host IP for the VMware machine: 192.168.152.1
+2019/03/03 21:31:01 ui: ==> vmware-iso: Typing the boot command over VNC...
+2019/03/03 21:31:01 packer.exe: 2019/03/03 21:31:01 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:01 packer.exe: 2019/03/03 21:31:01 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:01 packer.exe: 2019/03/03 21:31:01 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:31:01 packer.exe: 2019/03/03 21:31:01 GuestIP discovered device matching nat: vmnet8
+2019/03/03 21:31:01 packer.exe: 2019/03/03 21:31:01 Lookup up IP information...
+2019/03/03 21:31:01 packer.exe: 2019/03/03 21:31:01 GuestAddress found MAC address in VMX: 00:0c:29:b7:77:1f
+2019/03/03 21:31:01 packer.exe: 2019/03/03 21:31:01 Trying DHCP leases path: C:/ProgramData/VMware/vmnetdhcp.leases
+2019/03/03 21:31:01 packer.exe: 2019/03/03 21:31:01 Detected IP: 192.168.152.223
+2019/03/03 21:31:01 ui: ==> vmware-iso: Using winrm communicator to connect: 192.168.152.223
+2019/03/03 21:31:01 ui: ==> vmware-iso: Waiting for WinRM to become available...
+2019/03/03 21:31:01 packer.exe: 2019/03/03 21:31:01 Waiting for WinRM, up to timeout: 30m0s
+2019/03/03 21:31:06 packer.exe: 2019/03/03 21:31:06 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:06 packer.exe: 2019/03/03 21:31:06 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:06 packer.exe: 2019/03/03 21:31:06 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:31:06 packer.exe: 2019/03/03 21:31:06 GuestIP discovered device matching nat: vmnet8
+2019/03/03 21:31:06 packer.exe: 2019/03/03 21:31:06 Lookup up IP information...
+2019/03/03 21:31:06 packer.exe: 2019/03/03 21:31:06 GuestAddress found MAC address in VMX: 00:0c:29:b7:77:1f
+2019/03/03 21:31:06 packer.exe: 2019/03/03 21:31:06 Trying DHCP leases path: C:/ProgramData/VMware/vmnetdhcp.leases
+2019/03/03 21:31:06 packer.exe: 2019/03/03 21:31:06 Detected IP: 192.168.152.223
+2019/03/03 21:31:06 packer.exe: 2019/03/03 21:31:06 [INFO] Attempting WinRM connection...
+2019/03/03 21:31:06 packer.exe: 2019/03/03 21:31:06 [DEBUG] connecting to remote shell using WinRM
+2019/03/03 21:31:27 packer.exe: 2019/03/03 21:31:27 [ERROR] connection error: unknown error Post http://192.168.152.223:5985/wsman: dial tcp 192.168.152.223:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019/03/03 21:31:27 packer.exe: 2019/03/03 21:31:27 [ERROR] WinRM connection err: unknown error Post http://192.168.152.223:5985/wsman: dial tcp 192.168.152.223:5985: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019/03/03 21:31:32 packer.exe: 2019/03/03 21:31:32 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:32 packer.exe: 2019/03/03 21:31:32 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:32 packer.exe: 2019/03/03 21:31:32 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:31:32 packer.exe: 2019/03/03 21:31:32 GuestIP discovered device matching nat: vmnet8
+2019/03/03 21:31:32 packer.exe: 2019/03/03 21:31:32 Lookup up IP information...
+2019/03/03 21:31:32 packer.exe: 2019/03/03 21:31:32 GuestAddress found MAC address in VMX: 00:0c:29:b7:77:1f
+2019/03/03 21:31:32 packer.exe: 2019/03/03 21:31:32 Trying DHCP leases path: C:/ProgramData/VMware/vmnetdhcp.leases
+2019/03/03 21:31:32 packer.exe: 2019/03/03 21:31:32 Detected IP: 192.168.152.223
+2019/03/03 21:31:32 packer.exe: 2019/03/03 21:31:32 [INFO] Attempting WinRM connection...
+2019/03/03 21:31:32 packer.exe: 2019/03/03 21:31:32 [DEBUG] connecting to remote shell using WinRM
+2019/03/03 21:31:32 packer.exe: 2019/03/03 21:31:32 [ERROR] connection error: http response error: 401 - invalid content type
+2019/03/03 21:31:32 packer.exe: 2019/03/03 21:31:32 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2019/03/03 21:31:37 packer.exe: 2019/03/03 21:31:37 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:37 packer.exe: 2019/03/03 21:31:37 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:37 packer.exe: 2019/03/03 21:31:37 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:31:37 packer.exe: 2019/03/03 21:31:37 GuestIP discovered device matching nat: vmnet8
+2019/03/03 21:31:37 packer.exe: 2019/03/03 21:31:37 Lookup up IP information...
+2019/03/03 21:31:37 packer.exe: 2019/03/03 21:31:37 GuestAddress found MAC address in VMX: 00:0c:29:b7:77:1f
+2019/03/03 21:31:37 packer.exe: 2019/03/03 21:31:37 Trying DHCP leases path: C:/ProgramData/VMware/vmnetdhcp.leases
+2019/03/03 21:31:37 packer.exe: 2019/03/03 21:31:37 Detected IP: 192.168.152.223
+2019/03/03 21:31:37 packer.exe: 2019/03/03 21:31:37 [INFO] Attempting WinRM connection...
+2019/03/03 21:31:37 packer.exe: 2019/03/03 21:31:37 [DEBUG] connecting to remote shell using WinRM
+2019/03/03 21:31:37 packer.exe: 2019/03/03 21:31:37 [ERROR] connection error: http response error: 401 - invalid content type
+2019/03/03 21:31:37 packer.exe: 2019/03/03 21:31:37 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2019/03/03 21:31:42 packer.exe: 2019/03/03 21:31:42 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:42 packer.exe: 2019/03/03 21:31:42 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:42 packer.exe: 2019/03/03 21:31:42 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:31:42 packer.exe: 2019/03/03 21:31:42 GuestIP discovered device matching nat: vmnet8
+2019/03/03 21:31:42 packer.exe: 2019/03/03 21:31:42 Lookup up IP information...
+2019/03/03 21:31:42 packer.exe: 2019/03/03 21:31:42 GuestAddress found MAC address in VMX: 00:0c:29:b7:77:1f
+2019/03/03 21:31:42 packer.exe: 2019/03/03 21:31:42 Trying DHCP leases path: C:/ProgramData/VMware/vmnetdhcp.leases
+2019/03/03 21:31:42 packer.exe: 2019/03/03 21:31:42 Detected IP: 192.168.152.223
+2019/03/03 21:31:42 packer.exe: 2019/03/03 21:31:42 [INFO] Attempting WinRM connection...
+2019/03/03 21:31:42 packer.exe: 2019/03/03 21:31:42 [DEBUG] connecting to remote shell using WinRM
+2019/03/03 21:31:42 packer.exe: 2019/03/03 21:31:42 [ERROR] connection error: http response error: 401 - invalid content type
+2019/03/03 21:31:42 packer.exe: 2019/03/03 21:31:42 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2019/03/03 21:31:47 packer.exe: 2019/03/03 21:31:47 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:47 packer.exe: 2019/03/03 21:31:47 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:47 packer.exe: 2019/03/03 21:31:47 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:31:47 packer.exe: 2019/03/03 21:31:47 GuestIP discovered device matching nat: vmnet8
+2019/03/03 21:31:47 packer.exe: 2019/03/03 21:31:47 Lookup up IP information...
+2019/03/03 21:31:47 packer.exe: 2019/03/03 21:31:47 GuestAddress found MAC address in VMX: 00:0c:29:b7:77:1f
+2019/03/03 21:31:47 packer.exe: 2019/03/03 21:31:47 Trying DHCP leases path: C:/ProgramData/VMware/vmnetdhcp.leases
+2019/03/03 21:31:47 packer.exe: 2019/03/03 21:31:47 Detected IP: 192.168.152.223
+2019/03/03 21:31:47 packer.exe: 2019/03/03 21:31:47 [INFO] Attempting WinRM connection...
+2019/03/03 21:31:47 packer.exe: 2019/03/03 21:31:47 [DEBUG] connecting to remote shell using WinRM
+2019/03/03 21:31:47 packer.exe: 2019/03/03 21:31:47 [ERROR] connection error: http response error: 401 - invalid content type
+2019/03/03 21:31:47 packer.exe: 2019/03/03 21:31:47 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2019/03/03 21:31:52 packer.exe: 2019/03/03 21:31:52 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:52 packer.exe: 2019/03/03 21:31:52 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:52 packer.exe: 2019/03/03 21:31:52 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:31:52 packer.exe: 2019/03/03 21:31:52 GuestIP discovered device matching nat: vmnet8
+2019/03/03 21:31:52 packer.exe: 2019/03/03 21:31:52 Lookup up IP information...
+2019/03/03 21:31:52 packer.exe: 2019/03/03 21:31:52 GuestAddress found MAC address in VMX: 00:0c:29:b7:77:1f
+2019/03/03 21:31:52 packer.exe: 2019/03/03 21:31:52 Trying DHCP leases path: C:/ProgramData/VMware/vmnetdhcp.leases
+2019/03/03 21:31:52 packer.exe: 2019/03/03 21:31:52 Detected IP: 192.168.152.223
+2019/03/03 21:31:52 packer.exe: 2019/03/03 21:31:52 [INFO] Attempting WinRM connection...
+2019/03/03 21:31:52 packer.exe: 2019/03/03 21:31:52 [DEBUG] connecting to remote shell using WinRM
+2019/03/03 21:31:52 packer.exe: 2019/03/03 21:31:52 [ERROR] connection error: http response error: 401 - invalid content type
+2019/03/03 21:31:52 packer.exe: 2019/03/03 21:31:52 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2019/03/03 21:31:57 packer.exe: 2019/03/03 21:31:57 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:57 packer.exe: 2019/03/03 21:31:57 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:31:57 packer.exe: 2019/03/03 21:31:57 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:31:57 packer.exe: 2019/03/03 21:31:57 GuestIP discovered device matching nat: vmnet8
+2019/03/03 21:31:57 packer.exe: 2019/03/03 21:31:57 Lookup up IP information...
+2019/03/03 21:31:57 packer.exe: 2019/03/03 21:31:57 GuestAddress found MAC address in VMX: 00:0c:29:b7:77:1f
+2019/03/03 21:31:57 packer.exe: 2019/03/03 21:31:57 Trying DHCP leases path: C:/ProgramData/VMware/vmnetdhcp.leases
+2019/03/03 21:31:57 packer.exe: 2019/03/03 21:31:57 Detected IP: 192.168.152.223
+2019/03/03 21:31:57 packer.exe: 2019/03/03 21:31:57 [INFO] Attempting WinRM connection...
+2019/03/03 21:31:57 packer.exe: 2019/03/03 21:31:57 [DEBUG] connecting to remote shell using WinRM
+2019/03/03 21:31:57 packer.exe: 2019/03/03 21:31:57 [ERROR] connection error: http response error: 401 - invalid content type
+2019/03/03 21:31:57 packer.exe: 2019/03/03 21:31:57 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2019/03/03 21:32:02 packer.exe: 2019/03/03 21:32:02 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:32:02 packer.exe: 2019/03/03 21:32:02 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:32:02 packer.exe: 2019/03/03 21:32:02 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:32:02 packer.exe: 2019/03/03 21:32:02 GuestIP discovered device matching nat: vmnet8
+2019/03/03 21:32:02 packer.exe: 2019/03/03 21:32:02 Lookup up IP information...
+2019/03/03 21:32:02 packer.exe: 2019/03/03 21:32:02 GuestAddress found MAC address in VMX: 00:0c:29:b7:77:1f
+2019/03/03 21:32:02 packer.exe: 2019/03/03 21:32:02 Trying DHCP leases path: C:/ProgramData/VMware/vmnetdhcp.leases
+2019/03/03 21:32:02 packer.exe: 2019/03/03 21:32:02 Detected IP: 192.168.152.223
+2019/03/03 21:32:02 packer.exe: 2019/03/03 21:32:02 [INFO] Attempting WinRM connection...
+2019/03/03 21:32:02 packer.exe: 2019/03/03 21:32:02 [DEBUG] connecting to remote shell using WinRM
+2019/03/03 21:32:02 packer.exe: 2019/03/03 21:32:02 [ERROR] connection error: http response error: 401 - invalid content type
+2019/03/03 21:32:02 packer.exe: 2019/03/03 21:32:02 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2019/03/03 21:32:07 packer.exe: 2019/03/03 21:32:07 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:32:07 packer.exe: 2019/03/03 21:32:07 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:32:07 packer.exe: 2019/03/03 21:32:07 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:32:07 packer.exe: 2019/03/03 21:32:07 GuestIP discovered device matching nat: vmnet8
+2019/03/03 21:32:07 packer.exe: 2019/03/03 21:32:07 Lookup up IP information...
+2019/03/03 21:32:07 packer.exe: 2019/03/03 21:32:07 GuestAddress found MAC address in VMX: 00:0c:29:b7:77:1f
+2019/03/03 21:32:07 packer.exe: 2019/03/03 21:32:07 Trying DHCP leases path: C:/ProgramData/VMware/vmnetdhcp.leases
+2019/03/03 21:32:07 packer.exe: 2019/03/03 21:32:07 Detected IP: 192.168.152.223
+2019/03/03 21:32:07 packer.exe: 2019/03/03 21:32:07 [INFO] Attempting WinRM connection...
+2019/03/03 21:32:07 packer.exe: 2019/03/03 21:32:07 [DEBUG] connecting to remote shell using WinRM
+2019/03/03 21:32:07 packer.exe: 2019/03/03 21:32:07 [ERROR] connection error: http response error: 401 - invalid content type
+2019/03/03 21:32:07 packer.exe: 2019/03/03 21:32:07 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2019/03/03 21:32:12 packer.exe: 2019/03/03 21:32:12 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:32:12 packer.exe: 2019/03/03 21:32:12 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:32:12 packer.exe: 2019/03/03 21:32:12 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:32:12 packer.exe: 2019/03/03 21:32:12 GuestIP discovered device matching nat: vmnet8
+2019/03/03 21:32:12 packer.exe: 2019/03/03 21:32:12 Lookup up IP information...
+2019/03/03 21:32:12 packer.exe: 2019/03/03 21:32:12 GuestAddress found MAC address in VMX: 00:0c:29:b7:77:1f
+2019/03/03 21:32:12 packer.exe: 2019/03/03 21:32:12 Trying DHCP leases path: C:/ProgramData/VMware/vmnetdhcp.leases
+2019/03/03 21:32:12 packer.exe: 2019/03/03 21:32:12 Detected IP: 192.168.152.223
+2019/03/03 21:32:12 packer.exe: 2019/03/03 21:32:12 [INFO] Attempting WinRM connection...
+2019/03/03 21:32:12 packer.exe: 2019/03/03 21:32:12 [DEBUG] connecting to remote shell using WinRM
+2019/03/03 21:32:12 packer.exe: 2019/03/03 21:32:12 [ERROR] connection error: http response error: 401 - invalid content type
+2019/03/03 21:32:12 packer.exe: 2019/03/03 21:32:12 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2019/03/03 21:32:17 packer.exe: 2019/03/03 21:32:17 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:32:17 packer.exe: 2019/03/03 21:32:17 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:32:17 packer.exe: 2019/03/03 21:32:17 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:32:17 packer.exe: 2019/03/03 21:32:17 GuestIP discovered device matching nat: vmnet8
+2019/03/03 21:32:17 packer.exe: 2019/03/03 21:32:17 Lookup up IP information...
+2019/03/03 21:32:17 packer.exe: 2019/03/03 21:32:17 GuestAddress found MAC address in VMX: 00:0c:29:b7:77:1f
+2019/03/03 21:32:17 packer.exe: 2019/03/03 21:32:17 Trying DHCP leases path: C:/ProgramData/VMware/vmnetdhcp.leases
+2019/03/03 21:32:17 packer.exe: 2019/03/03 21:32:17 Detected IP: 192.168.152.223
+2019/03/03 21:32:17 packer.exe: 2019/03/03 21:32:17 [INFO] Attempting WinRM connection...
+2019/03/03 21:32:17 packer.exe: 2019/03/03 21:32:17 [DEBUG] connecting to remote shell using WinRM
+2019/03/03 21:32:17 packer.exe: 2019/03/03 21:32:17 [ERROR] connection error: http response error: 401 - invalid content type
+2019/03/03 21:32:17 packer.exe: 2019/03/03 21:32:17 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2019/03/03 21:32:22 packer.exe: 2019/03/03 21:32:22 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:32:22 packer.exe: 2019/03/03 21:32:22 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:32:22 packer.exe: 2019/03/03 21:32:22 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:32:22 packer.exe: 2019/03/03 21:32:22 GuestIP discovered device matching nat: vmnet8
+2019/03/03 21:32:22 packer.exe: 2019/03/03 21:32:22 Lookup up IP information...
+2019/03/03 21:32:22 packer.exe: 2019/03/03 21:32:22 GuestAddress found MAC address in VMX: 00:0c:29:b7:77:1f
+2019/03/03 21:32:22 packer.exe: 2019/03/03 21:32:22 Trying DHCP leases path: C:/ProgramData/VMware/vmnetdhcp.leases
+2019/03/03 21:32:22 packer.exe: 2019/03/03 21:32:22 Detected IP: 192.168.152.223
+2019/03/03 21:32:22 packer.exe: 2019/03/03 21:32:22 [INFO] Attempting WinRM connection...
+2019/03/03 21:32:22 packer.exe: 2019/03/03 21:32:22 [DEBUG] connecting to remote shell using WinRM
+2019/03/03 21:32:22 packer.exe: 2019/03/03 21:32:22 [ERROR] connection error: http response error: 401 - invalid content type
+2019/03/03 21:32:22 packer.exe: 2019/03/03 21:32:22 [ERROR] WinRM connection err: http response error: 401 - invalid content type
+2019/03/03 21:32:27 packer.exe: 2019/03/03 21:32:27 Searching for file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:32:27 packer.exe: 2019/03/03 21:32:27 Found file 'C:/ProgramData/VMware/netmap.conf'
+2019/03/03 21:32:27 packer.exe: 2019/03/03 21:32:27 Located networkmapper configuration file using Workstation: C:/ProgramData/VMware/netmap.conf
+2019/03/03 21:32:27 packer.exe: 2019/03/03 21:32:27 GuestIP discovered device matching nat: vmnet8
+2019/03/03 21:32:27 packer.exe: 2019/03/03 21:32:27 Lookup up IP information...
+2019/03/03 21:32:27 packer.exe: 2019/03/03 21:32:27 GuestAddress found MAC address in VMX: 00:0c:29:b7:77:1f
+2019/03/03 21:32:27 packer.exe: 2019/03/03 21:32:27 Trying DHCP leases path: C:/ProgramData/VMware/vmnetdhcp.leases
+2019/03/03 21:32:27 packer.exe: 2019/03/03 21:32:27 Detected IP: 192.168.152.223
+2019/03/03 21:32:27 packer.exe: 2019/03/03 21:32:27 [INFO] Attempting WinRM connection...
+2019/03/03 21:32:27 packer.exe: 2019/03/03 21:32:27 [DEBUG] connecting to remote shell using WinRM
+2019/03/03 21:32:32 packer.exe: 2019/03/03 21:32:32 Checking that WinRM is connected with: 'powershell.exe -EncodedCommand aQBmACAAKABUAGUAcwB0AC0AUABhAHQAaAAgAHYAYQByAGkAYQBiAGwAZQA6AGcAbABvAGIAYQBsADoAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAKQB7ACQAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAPQAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwB9ADsAIABlAGMAaABvACAAIgBXAGkAbgBSAE0AIABjAG8AbgBuAGUAYwB0AGUAZAAuACIA'
+2019/03/03 21:32:32 packer.exe: 2019/03/03 21:32:32 [INFO] starting remote command: powershell.exe -EncodedCommand aQBmACAAKABUAGUAcwB0AC0AUABhAHQAaAAgAHYAYQByAGkAYQBiAGwAZQA6AGcAbABvAGIAYQBsADoAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAKQB7ACQAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAPQAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwB9ADsAIABlAGMAaABvACAAIgBXAGkAbgBSAE0AIABjAG8AbgBuAGUAYwB0AGUAZAAuACIA
+2019/03/03 21:32:41 packer.exe: 2019/03/03 21:32:41 [INFO] command 'powershell.exe -EncodedCommand aQBmACAAKABUAGUAcwB0AC0AUABhAHQAaAAgAHYAYQByAGkAYQBiAGwAZQA6AGcAbABvAGIAYQBsADoAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAKQB7ACQAUAByAG8AZwByAGUAcwBzAFAAcgBlAGYAZQByAGUAbgBjAGUAPQAnAFMAaQBsAGUAbgB0AGwAeQBDAG8AbgB0AGkAbgB1AGUAJwB9ADsAIABlAGMAaABvACAAIgBXAGkAbgBSAE0AIABjAG8AbgBuAGUAYwB0AGUAZAAuACIA' exited with code: 0
+2019/03/03 21:32:41 ui:     vmware-iso: WinRM connected.
+2019/03/03 21:32:41 packer.exe: 2019/03/03 21:32:41 Connected to machine
+2019/03/03 21:32:41 ui: ==> vmware-iso: Connected to WinRM!
+2019/03/03 21:32:41 ui: ==> vmware-iso: Uploading the 'windows' VMware Tools
+2019/03/03 21:32:41 packer.exe: 2019/03/03 21:32:41 Uploading file to 'windows.iso'
+2019/03/03 21:35:43 ui error: ==> vmware-iso: Error uploading VMware Tools: Error uploading file to $env:TEMP\winrmcp-7e69abf1-e73f-483e-4f6b-fbfd3dca3381.tmp: Couldn't create shell: unknown error Post http://192.168.152.223:5985/wsman: read tcp 192.168.152.1:8424->192.168.152.223:5985: wsarecv: An established connection was aborted by the software in your host machine.
+2019/03/03 21:35:43 packer.exe: 2019/03/03 21:35:43 Executing: C:/Program Files (x86)/VMware/VMware Workstation/vmrun.exe -T ws list
+2019/03/03 21:35:43 packer.exe: 2019/03/03 21:35:43 stdout: Total running VMs: 1
+2019/03/03 21:35:43 packer.exe: H:\Virtual Machines\Packer\output-vmware-iso\packer-vmware-iso.vmx
+2019/03/03 21:35:43 packer.exe: 2019/03/03 21:35:43 stderr:
+2019/03/03 21:35:43 ui: ==> vmware-iso: Stopping virtual machine...
+2019/03/03 21:35:43 packer.exe: 2019/03/03 21:35:43 Executing: C:/Program Files (x86)/VMware/VMware Workstation/vmrun.exe -T ws stop output-vmware-iso\packer-vmware-iso.vmx hard
+2019/03/03 21:35:46 packer.exe: 2019/03/03 21:35:46 stdout:
+2019/03/03 21:35:46 packer.exe: 2019/03/03 21:35:46 stderr:
+2019/03/03 21:35:46 packer.exe: 2019/03/03 21:35:46 Deleting floppy disk: C:\Users\Yakza971\AppData\Local\Temp\packer747681371
+2019/03/03 21:35:46 ui: ==> vmware-iso: Deleting output directory...
+2019/03/03 21:35:46 [INFO] (telemetry) ending vmware-iso
+2019/03/03 21:35:46 ui error: Build 'vmware-iso' errored: Error uploading VMware Tools: Error uploading file to $env:TEMP\winrmcp-7e69abf1-e73f-483e-4f6b-fbfd3dca3381.tmp: Couldn't create shell: unknown error Post http://192.168.152.223:5985/wsman: read tcp 192.168.152.1:8424->192.168.152.223:5985: wsarecv: An established connection was aborted by the software in your host machine.
+2019/03/03 21:35:46 Builds completed. Waiting on interrupt barrier...
+2019/03/03 21:35:46 machine readable: error-count []string{"1"}
+2019/03/03 21:35:46 ui error: 
+==> Some builds didn't complete successfully and had errors:
+2019/03/03 21:35:46 machine readable: vmware-iso,error []string{"Error uploading VMware Tools: Error uploading file to $env:TEMP\\winrmcp-7e69abf1-e73f-483e-4f6b-fbfd3dca3381.tmp: Couldn't create shell: unknown error Post http://192.168.152.223:5985/wsman: read tcp 192.168.152.1:8424->192.168.152.223:5985: wsarecv: An established connection was aborted by the software in your host machine."}
+2019/03/03 21:35:46 ui error: --> vmware-iso: Error uploading VMware Tools: Error uploading file to $env:TEMP\winrmcp-7e69abf1-e73f-483e-4f6b-fbfd3dca3381.tmp: Couldn't create shell: unknown error Post http://192.168.152.223:5985/wsman: read tcp 192.168.152.1:8424->192.168.152.223:5985: wsarecv: An established connection was aborted by the software in your host machine.
+2019/03/03 21:35:46 ui: 
+==> Builds finished but no artifacts were created.
+2019/03/03 21:35:46 [INFO] (telemetry) Finalizing.
+2019/03/03 21:35:47 waiting for all plugin processes to complete...
+2019/03/03 21:35:47 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2019/03/03 21:35:47 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2019/03/03 21:35:47 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
